@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Misbah Ayyub Khan - Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial}
+body{background:#f8fafc;color:#1e293b}
+.hero{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:white;padding:80px 20px;text-align:center}
+.hero h1{font-size:42px;margin:10px 0}
+.hero h1 span{color:#fde047}
+.hero h2{font-weight:400;opacity:.9}
+.btn{display:inline-block;margin:12px 8px;padding:12px 28px;border-radius:30px;text-decoration:none;font-weight:600}
+.btn-white{background:white;color:#7c3aed}
+.btn-out{background:transparent;border:2px solid white;color:white}
+.section{max-width:1000px;margin:auto;padding:60px 20px}
+.label{color:#6366f1;font-weight:700;letter-spacing:1px;font-size:13px}
+.title{font-size:32px;margin:8px 0 20px}
+.card{background:white;padding:25px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.08);margin:20px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+footer{background:#0f172a;color:white;text-align:center;padding:30px;margin-top:40px}
+a{color:#6366f1}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<p>WELCOME TO MY PORTFOLIO</p>
+<h1>Hi, I'm <span>Misbah Ayyub Khan</span></h1>
+<h2>Aspiring Full Stack Developer</h2>
+<p style="max-width:600px;margin:15px auto">I am a BCA student passionate about coding, learning new technologies, solving logical problems and creating beautiful websites.</p>
+<a class="btn btn-white" href="#projects">View My Projects</a>
+<a class="btn btn-out" href="#contact">Contact Me</a>
+</div>
+
+<div class="section" id="projects">
+<p class="label">MY WORK</p>
+<h2 class="title">Projects</h2>
+<div class="grid">
+<div class="card"><h3>Task Management App</h3><p>A task management project idea for organising daily activities and tracking tasks.</p><br><a href="#">View Project</a></div>
+<div class="card"><h3>E-Commerce Website</h3><p>A shopping website concept featuring product cards and a clean user interface.</p><br><a href="#">View Project</a></div>
+</div>
+</div>
+
+<div class="section" id="experience">
+<p class="label">MY PROFESSIONAL JOURNEY</p>
+<h2 class="title">Experience & Learning</h2>
+<div class="card">
+<p>Present</p>
+<h3>BCA Student</h3>
+<p>Studying computer applications and developing programming fundamentals.</p><br>
+<p>Current Learning</p>
+<h3>Web Development Training</h3>
+<p>Practising HTML, CSS, responsive layouts, web page styling and animations.</p><br>
+<p>Career Goal</p>
+<h3>Full Stack Developer</h3>
+<p>Preparing to develop real-world projects, learn backend programming and gain professional industry experience.</p>
+</div>
+</div>
+
+<div class="section">
+<p class="label">MY ACADEMIC BACKGROUND</p>
+<h2 class="title">My Qualifications</h2>
+<div class="grid">
+<div class="card"><h3>SSC</h3><p>Secondary School Certificate</p></div>
+<div class="card"><h3>HSC</h3><p>Higher Secondary Certificate - Science</p></div>
+<div class="card"><h3>Bachelor of Computer Applications</h3><p>BCA - Pursuing</p></div>
+<div class="card"><h3>Technical Learning</h3><p>Web development and programming practice</p></div>
+</div>
+</div>
+
+<div class="section" id="contact">
+<p class="label">LET'S CONNECT</p>
+<h2 class="title">Contact Me</h2>
+<div class="card">
+<p>I'm interested in software development opportunities, learning experiences, projects and internships.</p><br>
+<p><b>Email Address</b> <a href="mailto:khanmisba2424@gmail.com">khanmisba2424@gmail.com</a></p>
+<p><b>Phone Number</b> <a href="tel:9930064267">9930064267</a></p>
+<p><a href="mailto:khanmisba2424@gmail.com">Send Me an Email</a></p>
+<br>
+<h3>Misbah Ayyub Khan</h3>
+<p>Aspiring Full Stack Developer</p>
+</div>
+</div>
+
+<footer>© 2026 Misbah Ayyub Khan. All rights reserved.<br><br><a href="#" style="color:white">Back to Top ↑</a></footer>
+
+</body>
+</html>
